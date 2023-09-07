@@ -47,7 +47,7 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 ## Owner
 
 - Name: Your Name
-- GitHub: [YourGitHubUsername](https://github.com/hyperlitz)
+- GitHub: [HYPERLITZ](https://github.com/hyperlitz)
 
 ## License
 
