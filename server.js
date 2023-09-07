@@ -259,15 +259,19 @@ async function startApp() {
         }
         break;
 
-      case 'View all employees':
-        try {
-          const [employees] = await getAllEmployees();
-          console.table(employees);
-        } catch (error) {
-          console.error('Error fetching employees:', error);
-        }
-        break;
-
+        case 'View all employees':
+          try {
+            const employees = await getAllEmployees();
+            if (employees.length === 0) {
+              console.log('No employees found.');
+            } else {
+              console.table(employees);
+            }
+          } catch (error) {
+            console.error('Error fetching employees:', error);
+          }
+          break;
+          
       case 'Add an employee':
         try {
           // Prompt for employee details
