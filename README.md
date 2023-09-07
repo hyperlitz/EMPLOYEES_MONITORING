@@ -2,8 +2,11 @@
 
 Welcome to the Employee Tracker project! This application allows you to manage employees, roles, and departments in a company.
 
+## Screenshot
 ![Screenshot 1](./images/department.png)
+
 ![Screenshot 2](./images/employees.png)
+
 ![Screenshot 3](./images/role.png)
 
 ## Demo Video
@@ -25,6 +28,7 @@ To get started with the Employee Tracker, follow these steps:
 - Add new employees, roles, and departments.
 - Update employee roles.
 - Delete employees, roles, and departments.
+
 ## Usage
 
 1. Run the application and choose an option from the main menu.
