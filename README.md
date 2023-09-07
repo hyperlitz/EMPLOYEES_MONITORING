@@ -19,7 +19,7 @@ To get started with the Employee Tracker, follow these steps:
 
 1. Clone the repository: [Repository Link](https://github.com/hyperlitz/EMPLOYEES_MONITORING)
 2. Install the required dependencies using `npm install`.
-3. Configure the database connection in `config.js`.
+3. Configure the database connection in `db.js`.
 4. Run the application using `npm start`.
 
 ## Features
